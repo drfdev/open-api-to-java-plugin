@@ -14,13 +14,13 @@
 
     <description>Different Open API files for convert testing</description>
 
-    <dependencies>
-        <!-- project -->
-        <dependency>
-            <groupId>dev.drf.maven.plugin.open.api</groupId>
-            <artifactId>open-api-converter-maven-plugin</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>dev.drf.maven.plugin.open.api</groupId>
+                <artifactId>open-api-converter-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>

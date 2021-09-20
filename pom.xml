@@ -68,6 +68,19 @@
                         <release>${java.version}</release>
                     </configuration>
                 </plugin>
+                <plugin>
+                    <groupId>dev.drf.maven.plugin.open.api</groupId>
+                    <artifactId>open-api-converter-maven-plugin</artifactId>
+                    <version>${project.version}</version>
+                    <executions>
+                        <execution>
+                            <phase>compile</phase>
+                            <goals>
+                                <goal>converter</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
             </plugins>
         </pluginManagement>
     </build>
