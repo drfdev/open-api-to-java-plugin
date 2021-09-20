@@ -12,6 +12,8 @@
 
     <artifactId>open-api-converter-maven-plugin-examples</artifactId>
 
+    <description>Different Open API files for convert testing</description>
+
     <dependencies>
         <!-- project -->
         <dependency>

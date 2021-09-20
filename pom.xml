@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>Open API converter</name>
+    <name>Open API parent</name>
     <description>Parent project with dependency list</description>
 
     <properties>
@@ -28,6 +28,7 @@
         <module>open-api-converter-maven-plugin</module>
         <module>open-api-converter-maven-plugin-testing</module>
         <module>open-api-converter-maven-plugin-examples</module>
+        <module>open-api-converter-maven-plugin-docs</module>
     </modules>
 
     <dependencyManagement>

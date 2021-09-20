@@ -10,17 +10,9 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>open-api-converter-maven-plugin-testing</artifactId>
+    <artifactId>open-api-converter-maven-plugin-docs</artifactId>
+    <packaging>pom</packaging>
 
-    <description>Full testing: unit test for plugin classes</description>
-
-    <dependencies>
-        <!-- project -->
-        <dependency>
-            <groupId>dev.drf.maven.plugin.open.api</groupId>
-            <artifactId>open-api-converter-maven-plugin</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-    </dependencies>
+    <description>Some text files for documentation or something like that</description>
 
 </project>
